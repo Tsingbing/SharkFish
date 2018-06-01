@@ -1,0 +1,267 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\qrc_qml.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="debug\moc_predefs.h.cbt">
+      <Filter>Generated Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="release\moc_predefs.h.cbt">
+      <Filter>Generated Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="-">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\0.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\00.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\10.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\10.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\100.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\100.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\20.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\20.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\30.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\30.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\40.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\40.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\50.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\50.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\60.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\60.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\70.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\70.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\80.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\80.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\90.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\90.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="??.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\??????.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\BD.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\BD_btna.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\BD_btnb.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Chart1.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Depth.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\MMMMM.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="MainForm.ui.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Mileage.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\O.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Settings.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SettingsForm.ui.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SmallFishs.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SmallFishsForm.ui.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Win.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\^.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\^.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\background.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\background">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\begin-btn.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\bottom.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\box_left.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\box_right.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\compass_case.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\compass_hand.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\compass_ring.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\fi_left.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\fi_left.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\fi_right.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\fi_right.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\gr_a.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\gr_a.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\gr_b.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\gr_b.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\gr_c.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\left.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="main.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\menu_face.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\menu_logo.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\menu_sub.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\mui_face.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\mui_ring.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\mui_ring2.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\over-btn.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="qml.qrc">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="images\top.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\xxx.png">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="images\background - 副本.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
