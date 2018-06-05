@@ -258,6 +258,7 @@
     <None Include="images\xxx.png">
       <Filter>Resource Files</Filter>
     </None>
+    <None Include="readme.md" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="images\background - 副本.png">

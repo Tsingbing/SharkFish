@@ -68,5 +68,6 @@
         <file>images/新建位图图像.bmp</file>
         <file>Settings.qml</file>
         <file>SettingsForm.ui.qml</file>
+        <file>data/dehaze.mat</file>
     </qresource>
 </RCC>

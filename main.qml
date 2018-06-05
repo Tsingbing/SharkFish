@@ -3,6 +3,7 @@ import QtQuick.Window 2.2
 import QtQuick.Controls 2.2
 import com.robosea.opencv 1.0
 import com.robosea.serialport 1.0
+import com.robosea.qbserialport 1.0
 import QtCharts 2.2
 Window {
     visible: true
@@ -24,7 +25,11 @@ Window {
         height: 31
         text: "X"
         font.pointSize: 10
-        onClicked: showMaximized();
+        onClicked:
+        {
+            showMaximized();
+            video.imageFlag = 0;
+        }
     }
 
     Button {
@@ -34,7 +39,11 @@ Window {
         x: 1828
         y: 9
         z: 1
-        onClicked: showFullScreen();
+        onClicked:
+            {
+                //showFullScreen();
+                video.imageFlag = 2;
+            }
     }
     Win {
         id:             sub_W
@@ -95,12 +104,18 @@ Window {
 
         }
     }
-    SerialPortItem {
-        id : myitem
-        running: true
-        waitTimeOut: 100
+//    SerialPortItem {
+//        id : myitem
+//        running: true
+//        waitTimeOut: 100
 
+//    }
+    QBSerialItem {
+        id: qbSerialitem
+        waitTimeOut: 10
+        portName: "COM1"
     }
+
     TabBar {
         id: tabBar
         width: 250
@@ -143,7 +158,9 @@ Window {
                 //height: 1080
                 anchors.fill: parent;
                 running: true
+                imageFlag: 0
                 //z:1
+                //curFrame:mui_face
             }
             MainForm {
                 anchors.fill: parent
@@ -167,6 +184,7 @@ Window {
                     y: 52
                     transformOrigin: Item.Center
                     source: "res/mui_face.svg"
+                    //source: video.curFrame
                     transform: Rotation { origin.x: 500; origin.y: 500; axis { x: 1; y: 0; z: 0 } angle: 73 }
                 }
 
@@ -258,9 +276,10 @@ Window {
                 y: 500
                 text: "dakai"
                 onClicked: {                    
-                        myitem.running = true;
-                        myitem.waitTimeOut = 300;
-                        myitem.portName = "COM9";
+//                        myitem.running = true;
+//                        myitem.waitTimeOut = 300;
+//                        myitem.portName = "COM9";
+                    qbSerialitem.start(100);
                 }
             }
             Button {
@@ -268,7 +287,8 @@ Window {
                 y: 400
                 text: "关闭"
                 onClicked: {
-                        myitem.running = false;
+                        //myitem.running = false;
+                    qbSerialitem.stop();
                 }
             }
         }
